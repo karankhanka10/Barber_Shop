@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#banner {
+    background: linear-gradient(rgba(0,0,0,0.5),#009688),url(Assets/banner.webp) center/cover;
+    height: 100vh;
+}
+
+
+#logo_img
+{
+    margin-top: 1.6rem;
+    width: 8rem;
+    margin-left: 8rem;
+}
+
+.header{
+    margin-top: 8rem;
+    display: flex;
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.header_h1{
+     font-size: 7rem;
+     color: white;
+     font-family: 'Kaushan Script', cursive;
+}
+
+.header_base{
+   
+    color: white;
+    /* padding-top: 0.1rem; */
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.buttons{
+    position: relative;
+    display:flex;
+    /* border: 2px solid red; */
+    /* width: 40rem; */
+    height: 8rem;
+    justify-content: center;
+    padding-top: 5rem;
+    gap: 3rem;
+}
+
+#button1{
+    width: 9rem;
+    height: 3rem;
+    background-color: transparent;
+    border: .5px solid white;
+    color: white;
+    
+}
+#button2{
+    width: 9rem;
+    height: 3rem;
+    background-color: transparent;
+    border: .5px solid white;
+    color: white;
+}
+
+.btn_p{
+    font-size: 1rem;
+}
+
